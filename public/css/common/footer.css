@@ -1,0 +1,161 @@
+footer {
+    background-color: #4B4F59;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4vh;
+    padding: 0 3vw;
+    color: #fff
+}
+
+.restaurant-title {
+    font-family: 'Forum', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    margin: 1vh 0;
+}
+
+.footer-menu ul {
+    margin: 1vh 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    list-style-type: none;
+    margin-bottom: 1vh;
+}
+
+.footer-btn {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-hours {
+    margin: 2vh 0;
+}
+
+.footer-hours p {
+    color: #fff;
+}
+
+.footer-infos {
+    margin: 1vh 0;
+}
+
+.footer-contacts {
+    margin-bottom: 1vh;
+}
+
+.footer-socials {
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-socials .footer-i {
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 0 0.5rem;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    .restaurant-title {
+        font-family: 'Forum', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        margin: 1vh 0;
+    }
+
+    .footer-menu ul {
+        justify-content: center;
+    }
+
+    .footer-menu ul li {
+        margin: 1vh 2vw;
+    }
+
+
+    .footer-socials img {
+        margin: 0 1vw;
+    }
+}
+
+@media all and (min-width: 992px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3vh 5vw;
+    }
+
+    .restaurant-title {
+        font-family: 'Forum', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        white-space: pre-line;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .footer-menu ul li {
+        margin: 1vh 2vw;
+    }
+
+    .footer-btn {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 300;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .footer-btn:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .footer-hours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-socials {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .footer-socials img {
+        margin: 0 1vw 0 0;
+    }
+}

@@ -1,0 +1,77 @@
+
+/* ----- SECTION STYLE ----- */
+
+section {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1.5rem;
+    padding: 5vh 3vw;
+    color: #4B4F59;
+    text-align: center;
+
+}
+
+section h2 {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 4vh 0;
+}
+
+section p {
+    margin: 2vh 0;
+}
+
+.stars {
+    margin: 4vh 0;
+}
+
+p.description {
+    color: #000;
+    margin: 3vh 0;
+    white-space: pre-line;
+}
+
+.signature {
+    color: #000;
+    text-align: end;
+    font-weight: 500;
+    margin: 2vh;
+}
+
+.dessert-p {
+    margin: 4vh 0;
+    white-space: pre-line;
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    /* ----- SECTION STYLE ----- */
+
+    section {
+        padding: 5vh 20vw;
+    }
+
+}
+
+@media all and (min-width: 992px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    /* ----- HEADER STYLE -----*/
+
+    h1 {
+        font-size: 48px;
+    }
+
+    /* ----- SECTION STYLE ----- */
+
+    section {
+        padding: 5vh 25vw;
+    }
+
+    
+}

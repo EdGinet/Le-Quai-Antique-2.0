@@ -1,0 +1,52 @@
+section {
+    padding: 5vh 2vw;
+}
+
+.showImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+
+.img-container {
+    display: inline-block;
+    height: 20vh;
+    width: calc(50% - 3vw);
+    margin: 1.5vw;
+    position: relative;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+@media all and (min-width: 992px) {
+
+    .showImages {
+        padding: 0 10vw;
+    }
+
+    .img-container {
+        height: 50vh;
+    }
+
+}

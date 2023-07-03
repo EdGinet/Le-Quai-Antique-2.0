@@ -1,0 +1,167 @@
+section {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5vh 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    font-family: 'Forum', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 4vh;
+}
+
+div.form-container {
+    height: 100%;
+    text-align: center;
+    margin-bottom: 4vh;
+    width: 100%;
+    padding-top: 4vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+input {
+    color: #4B4F59;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #545863;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+a.forgot-password {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #4B4F59;
+    margin-bottom: 4vh;
+}
+
+button.submit-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 2vh auto 0 auto;
+    background-color: #e50817;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.submit-btn:hover {
+    background-color: #b10914;
+}
+
+p.message {
+    font-weight: 300;
+    padding: 3vh;
+    line-height: 2rem;
+}
+
+a.other-btn {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 auto;
+    border: none;
+    color: #e50817;
+    transition: color 0.3s ease-in-out;
+}
+
+a.other-btn:hover {
+    color: #b10914;
+}
+
+.img-container {
+    display: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    /* ----- SECTION STYLE ----- */
+
+
+    section {
+        height: 93vh;
+        padding: 0;
+    }
+
+    div.form-container {
+        margin-bottom: 0;
+        padding-top: 120px;
+    }
+
+    form {
+        padding: 0 150px;
+    }
+    
+
+}
+
+@media all and (min-width: 992px) {
+
+    /* ----- SECTION STYLE ----- */
+
+    section {
+        height: 93vh;
+    }
+    div.container {
+        justify-content: inherit;
+    }
+
+    div.form-container {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 610px;
+    }
+
+    .img-container {
+        background-color: #d8d8d8;
+        background-image: url('/Le-Quai-Antique-2.0/public/images/_d4s6872-1-.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: 10%;
+        display: block;
+    }
+}

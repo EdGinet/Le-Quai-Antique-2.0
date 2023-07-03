@@ -1,0 +1,183 @@
+
+/* ----- SECTION STYLE ----- */
+
+section {
+    padding: 5vh 3vw;
+    color: #4B4F59;
+}
+
+.lunch, .contact-us, .dinner {
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Forum', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2vh;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+section div {
+    margin-bottom: 4vh;
+}
+
+.contact-form-panel {
+    text-align: center;
+}
+
+
+div.contact-form-panel p {
+    margin-bottom: 4vh;
+}
+
+form input, textarea {
+    margin-bottom: 42px;
+    border-radius: 4px;
+    border-color: #4B4F59;
+    padding-left: 1vw;
+}
+
+#name, #email, #message {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#name, #email {
+    height: 48px;
+}
+
+input, textarea {
+    color: #4B4F59;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #545863;
+    border-radius: 2px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+    height: 210px;
+    border: inherit;
+    border: 1px solid #545863;
+}
+
+#send-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0 auto 3vh auto;
+    background-color: #e50817;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#send-btn:hover {
+    background-color: #b10914;
+}
+
+div.block-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    
+    /* ----- SECTION STYLE ----- */
+
+    section {
+        padding: 5vh 3vw;
+        color: #4B4F59;
+    }
+
+    div.infos-panel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lunch, .dinner {
+        width: 33%;
+    }
+
+    .contact-us {
+        width: 34%;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 0 3vw;
+    }
+
+}
+
+@media all and (min-width: 992px) {
+
+    /* ----- SECTION STYLE ----- */
+
+    section {
+        padding: 10vh 5vw;
+    }
+
+    div.infos-panel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lunch, .dinner {
+        width: 33%;
+    }
+
+    .contact-us {
+        width: 34%;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    div.contact-form-panel {
+        text-align: center;
+        display: flex;
+        padding: 3rem;
+    }
+
+    .content {
+        padding: 0 3vw 0 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    div.block-image {
+        margin: 0;
+    }
+
+    div.bloc-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
